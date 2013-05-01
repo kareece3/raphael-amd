@@ -20,7 +20,11 @@ the path to `raphael.amd` in your `require.config()` `paths`. For example in you
     // ...
     paths: {
       // ...
-      'raphael': '../vendor/raphael.2.1.0.amd',
+	  'eve':          '../vendor/eve.0.3.4',
+	  'raphael.core': '../vendor/raphael.2.1.0.core',
+	  'raphael.svg':  '../vendor/raphael.2.1.0.svg',
+	  'raphael.vml':  '../vendor/raphael.2.1.0.vml',
+      'raphael':      '../vendor/raphael.2.1.0.amd',
       // ...
 
 Now you can use `raphael` as a dependency in your `define`s and `require`s:

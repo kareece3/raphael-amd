@@ -9,7 +9,7 @@
 // └─────────────────────────────────────────────────────────────────────┘ \\
 
 
-define(['../vendor/raphael.2.1.0.core'], function (R) {
+define(['raphael.core'], function (R) {
     if (!R.svg) return;
 
     var has = "hasOwnProperty",
